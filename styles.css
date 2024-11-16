@@ -1,0 +1,16 @@
+
+        h1 {
+            color: brown;
+            font-style: initial;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+        p {
+            color: chocolate;
+            font-size: 75px;
+        }
+
+        body {
+            background-color: darkgrey;
+        }
+
