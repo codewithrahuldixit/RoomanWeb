@@ -1,0 +1,20 @@
+.first{
+    text-align: center;
+    color: aqua;
+    background-color: brown;
+}
+.second , #h2{
+    text-align: center;
+    color: red;
+    background-color: pink
+}
+.circle{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border-color: brown;
+    border-style: solid;
+    background-color: brown;
+    left: 150px;
+    position: relative;
+}

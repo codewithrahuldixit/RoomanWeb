@@ -1,0 +1,27 @@
+img {
+    height: 200px;
+    width: 200px;
+}
+
+#green{
+    color: green;
+}
+#red{
+    color: red;
+}
+#blue{
+    color: blue;
+}
+#orange{
+    color: orange;
+}
+#yellow{
+    color: yellow;
+}
+
+.color-title{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: 700;
+    font-stretch: expanded;
+}

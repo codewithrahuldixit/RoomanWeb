@@ -1,0 +1,22 @@
+#head2{
+    color: blueviolet;
+ }
+h1.four{
+    color: aqua;
+ }
+ h1 {
+    color: red;
+ }
+ h1{
+    color: blue ;
+ }
+
+
+ .two{
+    color: brown;
+ }
+ h1[draggable="true"]{
+    color: black;
+
+ }
+

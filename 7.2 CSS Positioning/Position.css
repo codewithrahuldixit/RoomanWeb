@@ -1,0 +1,83 @@
+.box1{
+    background-color: green;
+    width: 700px;
+    height: 300px;
+    top: 50px;
+    left: 150px;
+    
+    position: absolute;
+
+}
+.box2{
+ 
+    width: 700px;
+    height: 300px;
+    top: 450px;
+    left: 150px;
+    border: 5px solid black;
+    position: absolute;
+
+}
+.orange{
+    width: 100%;
+    height: 100px;
+    background-color: orange    ;
+    position: relative;
+}
+.green{
+
+    width: 100%;
+    height: 100px;
+    background-color:green   ;
+    position: relative;
+    top: 100px;
+}
+.white{
+    left: 300px;
+    margin: 0;
+
+    position: relative;
+}
+img{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+}
+.bang{
+   color: red;
+    left: 400px;
+    position:absolute;
+    z-index: +1;
+    margin: 0;
+}
+.india{
+    color: red;
+     left: 460px;
+     top: 400px;
+    position: absolute;
+     z-index: +1;
+     margin: 0;
+ }
+.circle {
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;  
+    left: 250px;
+    position:relative;
+    top: 50px;
+    z-index: +1;
+
+}
+.rect {
+    top: 50px;
+    background-color: yellow;
+    width: 200px;
+    height: 100px;
+    left: 350px;
+    position: relative;
+
+}
+body{
+    margin: 0;
+}

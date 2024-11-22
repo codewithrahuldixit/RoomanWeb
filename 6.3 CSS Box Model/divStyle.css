@@ -1,0 +1,22 @@
+/*Example  to group Selectorss */
+/*h1,h2 {
+    color:green;
+}
+#head1,#head2{
+    font-size: larger;
+    font-style: italic;
+}*/
+/* Used for Direct decendent
+div > h1{
+    font-style: normal;
+    color: red;
+}*/
+
+div  h1{
+    font-style: italic;
+    color: red;
+}
+/*channing apply where all selectors are true*/
+div.inner#head1{
+    color: blue;
+}
