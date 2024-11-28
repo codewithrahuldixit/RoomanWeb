@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .flex-container{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 100px 200px 100px;
+            gap: 30px;
+
+        }
+        .box {
+            background-color: blue;
+        }
+        .first {
+            grid-column: span 2;
+        }
+        .second {
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <div class="flex-container">
+        <div class="first box"></div>
+        <div class="second box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+</body>
+</html>

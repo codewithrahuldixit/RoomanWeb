@@ -4,7 +4,25 @@
 <head>
   <meta charset="UTF-8">
   <title>Combining CSS Selectors</title>
-  <link rel="stylesheet" href="./solution.css">
+  <style>
+.done{
+  color: aqua;
+}
+p{
+  color: green;
+ }
+p[draggable]{
+  color: blue;
+}
+#id{
+  color:blueviolet;
+}
+
+ * {
+  color: red !important;
+ }
+ 
+   </style>
 </head>
 
 <!-- Don't change any of the HTML code! -->
@@ -13,12 +31,13 @@
   <h1>To Do List</h1>
   <h2>Monday</h2>
   <div class="box">
-    <p class="done">Do these things today!</p>
+    <p draggable="true" class="done" id="id">Do these things today!</p>
     <ul class="list">
       <li>Wash Clothes</li>
-      <li class="done">Read</li>
+      <li class="done" id="id">Read</li>
       <li class="done">Maths Questions</li>
     </ul>
+  
   </div>
 
   <ul>

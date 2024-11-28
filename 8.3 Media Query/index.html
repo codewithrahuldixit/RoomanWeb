@@ -1,26 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<!-- 
-TODO: Change the background color for each device
-[lightsalmon] Mobile Devices: 319px — 480px
-[powderblue] iPads and Tablets: 481px — 1200px
-[limegreen] Laptops: 1201px — 1600px
-[seagreen] Desktops: 1601px and more
--->
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
   <title>Media Query</title>
   <style>
-    body {
-      background-color: aquamarine;
+    
+/* 
+TODO: Change the background color for each device
+[lightsalmon] Mobile Devices: 319px — 480px
+[powderblue] iPads and Tablets: 481px — 1200px
+[limegreen] Laptops: 1201px — 1600px
+[seagreen] Desktops: 1601px and more */
+
+body{
+    background-color: brown;
+  }
+  @media (max-width:250px){
+    body{
+      background-color: blue;
     }
-  </style>
+  }
+  @media (min-width:251px) and (max-width:600px){
+    body{
+      background-color:green;
+    }
+  }
+  @media (min-width:601px) and (max-width:750px){
+    body{
+      background-color:red;
+    }
+  }
+  @media (any-hover: hover) {
+  a:hover {
+    background: yellow;
+  }
+}
+
+</style>
 </head>
 
 <body>
+  <a href="#">Try hovering over me!</a>
 </body>
 
 </html>

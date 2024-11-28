@@ -4,17 +4,55 @@
 <head>
   <title>CSS Positioning Exercise</title>
   <style>
-    /* Write your code here */
+     .yellow-circle{
+    border-radius: 50%;
+    background-color: yellow;
+    height: 150px;
+    width: 150px;
+    position: fixed;
+    
+  }
+  .red-circle{ 
+    border-radius: 50%;
+    background-color: red;
+    height: 150px;
+    width: 150px;
+    left: 75px;
+    top: 25px;
+    position: relative;
+
+  } 
+  .green-box{
+
+    background-color: green;
+    height: 2000px;
+    width: 300px;
+    top: 500px;
+    position: relative;
+
+  
+  }
+  .outer{
+    top: 100px;
+    left: 100px;
+    position: absolute;
+    
+  }
     
   </style>
 </head>
 
 <body>
-  <div class="blue-box">
-    <div class="red-circle">
+  <div class="yellow-circle"></div>
+  <div class="outer">
+    
+    <div class="green-box">
+      <div class="red-circle">
+      </div>
     </div>
-  </div>
-
+   
+    
+</div>
 </body>
 
 </html>

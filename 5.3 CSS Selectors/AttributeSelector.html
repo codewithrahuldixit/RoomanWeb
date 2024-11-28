@@ -3,17 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <title>CSS Selector Example Pgae</title>
-    <style>       
-        h1[draggable="true"]{
-            color: red;
-        }
+    <style>  
+    h1[draggable] {
+        color: red;
+    
+    }
+    h1 {
+        color:blue !important;
+    
+    }
+    .xyz{
+        color: aqua;
+    }
+    #h1{
+        color: brown;
+    }
     </style>
 </head>
 <body>
     <!-- id Selector can Applicable only one element-->
-    <h1 draggable="true">This Is the H1 Heading With Green Color.</h1>
-    <h1 >This Is the H1 Heading With Red Color.</h1>
-    <h1 draggable="true">This Is the H1 Heading With Italic Color.</h1>
+    <div>
+        <p> This Para 1</p>
+    </div>
+    <div>
+        
+        <p> This Para 2
+            <p class="one">This is heading</p>
+        </p>
+    </div>
+    <p class="outer"> This Para Outer</p>
+    <h1 draggable="true" id="h1" class="xyz">This Is the H1 Heading With Green Color.</h1>
+    <h1 id="h1">This Is the H1 Heading With Red Color.</h1>
+    <h1 draggable="false">This Is the H1 Heading With Italic Color.</h1>
     <h2 > This is a Sub Heading</h2>
     
 </body>
