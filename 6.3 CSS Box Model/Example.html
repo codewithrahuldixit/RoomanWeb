@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin:0;
+        }
+        .green {
+        width :500px;
+        height: 2000px;
+        background-color:green; 
+        top:100px;
+        left: 100px;
+        position: absolute;
+        z-index:-1;
+        
+        
+    }
+    .red {
+        width :100px;
+        height: 100px;
+        background-color:red;
+        border-radius: 50%;
+        top: 50px;
+        left:200px;
+    
+        position: absolute
+        
+        
+    }
+    .yellow {
+        width :100px;
+        height: 100px;
+        background-color:yellow;
+        border-radius: 50%;
+        top: 50px;
+        left:200px;
+    
+        position: fixed;
+        
+        
+    }
+</style>
+</head>
+<body>
+
+    
+    <div class="yellow"></div>
+    <div class="green"><div class="red"></div></div>
+</body>
+</html>
